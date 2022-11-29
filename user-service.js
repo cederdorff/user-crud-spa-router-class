@@ -3,7 +3,6 @@ class UserService {
         this.endpoint = "https://race-crud-rest-mvc-default-rtdb.firebaseio.com";
     }
     // === READ USERS (GET) === //
-
     async getUsers() {
         const res = await fetch(`${this.endpoint}/users.json`);
         const data = await res.json();
