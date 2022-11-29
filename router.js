@@ -11,9 +11,8 @@ class Router {
              * "path": "id of page in DOM"
              */
             "#/": "home",
-            "#/about": "about",
-            "#/clients": "clients",
-            "#/contact": "contact"
+            "#/create": "create",
+            "#/update-user": "update-user"
         };
         this.initRouter();
     }
@@ -90,3 +89,4 @@ class Router {
 }
 
 const router = new Router();
+export default router;

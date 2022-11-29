@@ -17,34 +17,37 @@
     <!-------------- Navigation -------------->
     <nav>
       <a class="nav-link" href="#/">Home</a>
-      <a class="nav-link" href="#/about">About</a>
-      <a class="nav-link" href="#/clients">Clients</a>
-      <a class="nav-link" href="#/contact">Contact</a>
+      <a class="nav-link" href="#/create">Create</a>
+
     </nav>
     <!-------------- Pages -------------->
     <!-- home page -->
     <section id="home" class="page">
       <h2>Home</h2>
-      <p>My Single Page Web App Template</p>
+      <p>All users in my User CRUD App</p>
       <section id="users-grid" class="grid-container"></section>
     </section>
 
-    <!-- about page -->
-    <section id="about" class="page">
-      <h2>About</h2>
-      <p>This is my about page</p>
+    <!-- create page -->
+    <section id="create" class="page">
+      <h2>Create new User</h2>
+      <form id="form-create">
+        <input type="text" name="name" placeholder="Type your name" required>
+        <input type="email" name="mail" placeholder="Type your mail" required>
+        <input type="url" name="image" placeholder=" Paste image url" required>
+        <button>Create User</button>
+      </form>
     </section>
 
-    <!-- clients page -->
-    <section id="clients" class="page">
-      <h2>Clients</h2>
-      <p>Clients page. Here goes some content.</p>
-    </section>
-
-    <!-- clients page -->
-    <section id="contact" class="page">
-      <h2>Contact</h2>
-      <p>This is a contact page</p>
+    <!-- update user page -->
+    <section id="update-user" class="page">
+      <h2>Update User</h2>
+      <form id="form-update">
+        <input type="text" name="name" placeholder="Type your name" required>
+        <input type="email" name="mail" placeholder="Type your mail" required>
+        <input type="url" name="image" placeholder=" Paste image url" required>
+        <button>Update User</button>
+      </form>
     </section>
 
   </main>
