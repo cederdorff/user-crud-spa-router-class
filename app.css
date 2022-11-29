@@ -54,8 +54,8 @@ img {
 main {
     animation: fadeIn 0.4s;
     /* padding equals height of tabbar and topbar */
-    padding: 82px 1em;
-    min-height: calc(100vh - 167px);
+    padding: 59px 1em 1em;
+    min-height: calc(100vh - 59px - 16px);
     background-color: var(--light-green);
 }
 
